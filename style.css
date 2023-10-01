@@ -1,0 +1,24 @@
+section {
+    display: flex;
+    gap: 20px;
+    height: 600px;
+}
+
+section > div {
+    padding: 10px;
+    min-width: 300px;
+    background-color: #f4f5f7;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* .test {
+    border: 3px solid red;
+} */
+
+.hide {
+    display: none;
+}
